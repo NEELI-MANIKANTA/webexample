@@ -16,4 +16,10 @@ public class TestController {
 	{
 		return "student.html";
 	}
+	
+	@RequestMapping("/welcome")
+	public String welcome()
+	{
+		return "welcome.html";
+	}
 }
